@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Mini Portfolio" />
+    <meta name="keywords" content="HTML, CSS, JavaScript" />
+    <meta name="author" content="Gagik Yeranosyan" />
+    <title>Yeranosyan</title>
+    <link rel="stylesheet" href="assets/style/style.css" />
+    <link
+      rel="shortcut icon"
+      href="assets/img/favicon.svg"
+      type="image/x-icon"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!-- About my profile -->
+    <header class="profile container">
+      <i class="ri-moon-line change-theme" id="theme-button"></i>
+      <div class="profile-container grid">
+        <div class="profile-data">
+          <div class="profile-border">
+            <div class="profile-perfil">
+              <img src="/assets/img/logo.png" alt="Photo profile" class="src" />
+            </div>
+          </div>
+          <h2 class="profile-name">Gagik Yeranosyan</h2>
+          <h3 class="profile-profession">
+            Junior Frontend Developer<br />Committed to Crafting Seamless
+            Digital Experiences
+          </h3>
+
+          <ul class="profile-social">
+            <a
+              href="https://www.instagram.com/gagik_yeranosyan/?hl=ru"
+              target="_blank"
+              class="profile-social-link"
+            >
+              <i class="ri-instagram-line"></i>
+            </a>
+            <a
+              href="https://www.linkedin.com/in/gagik-yeranosyan-244b50283/"
+              target="_blank"
+              class="profile-social-link"
+            >
+              <i class="ri-linkedin-box-line"></i>
+            </a>
+            <a
+              href="https://github.com/Yeranosyan"
+              target="_blank"
+              class="profile-social-link"
+            >
+              <i class="ri-github-line"></i>
+            </a>
+          </ul>
+        </div>
+        <div class="profile-info grid">
+          <div class="profile-info-group">
+            <h3 class="profile-info-number">+1</h3>
+            <p class="profile-info-description">
+              Year of <br />
+              experience
+            </p>
+          </div>
+          <div class="profile-info-group">
+            <h3 class="profile-info-number">+2</h3>
+            <p class="profile-info-description">
+              Central Ukrainian National <br />
+              Technical University <br />
+              Johns Hopkins University
+            </p>
+          </div>
+          <div class="profile-info-group">
+            <h3 class="profile-info-number">+11</h3>
+            <p class="profile-info-description">
+              Completed <br />
+              certifications
+            </p>
+          </div>
+        </div>
+        <div class="profile-buttons">
+          <a download="" href="CV.pdf" class="button">
+            Download CV <i class="ri-download-cloud-2-line"></i>
+          </a>
+          <div class="profile-buttons-smal">
+            <a
+              href="https://api.whatsapp.com/send?phone=17789269774&text=Hello, more information!"
+              target="_blank"
+              class="button button-small button-gray"
+            >
+              <i class="ri-whatsapp-line"></i>
+            </a>
+            <a
+              href="https://m.me/gagik.yeranosyan.98/"
+              target="_blank"
+              class="button button-small button-gray"
+            >
+              <i class="ri-messenger-line"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- Create two buttons Skills and Projects -->
+    <main class="main">
+      <section class="filters-container">
+        <ul class="filters-content">
+          <button
+            class="filters-button filter-tab-active"
+            data-target="#skills"
+          >
+            Skills
+          </button>
+          <button class="filters-button" data-target="#projects">
+            Project
+          </button>
+        </ul>
+        <div class="filters-sections">
+          <!-- Skills section -->
+          <div
+            class="skills-content grid filters-sections-active"
+            data-content
+            id="skills"
+          >
+            <div class="skills-area">
+              <h3 class="skills-title">Frontend developer</h3>
+              <div class="skills-box">
+                <div class="skills-group">
+                  <div class="skills-data">
+                    <i class="ri-checkbox-circle-line"></i>
+                    <div>
+                      <h3 class="skills-name">HTML</h3>
+                      <span class="skills-level">Advanced</span>
+                    </div>
+                  </div>
+
+                  <div class="skills-data">
+                    <i class="ri-checkbox-circle-line"></i>
+                    <div>
+                      <h3 class="skills-name">CSS</h3>
+                      <span class="skills-level">Advanced</span>
+                    </div>
+                  </div>
+
+                  <div class="skills-data">
+                    <i class="ri-checkbox-circle-line"></i>
+                    <div>
+                      <h3 class="skills-name">JavaScript</h3>
+                      <span class="skills-level">Advanced</span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="skills-group">
+                  <div class="skills-data">
+                    <i class="ri-checkbox-circle-line"></i>
+                    <div>
+                      <h3 class="skills-name">React</h3>
+                      <span class="skills-level">Advanced</span>
+                    </div>
+                  </div>
+
+                  <div class="skills-data">
+                    <i class="ri-checkbox-circle-line"></i>
+                    <div>
+                      <h3 class="skills-name">TypeScript</h3>
+                      <span class="skills-level">Advanced</span>
+                    </div>
+                  </div>
+
+                  <div class="skills-data">
+                    <i class="ri-checkbox-circle-line"></i>
+                    <div>
+                      <h3 class="skills-name">Vue.js</h3>
+                      <span class="skills-level">Intermediate</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="skills-area">
+              <h3 class="skills-title">Backend developer</h3>
+              <div class="skills-box">
+                <div class="skills-group">
+                  <div class="skills-data">
+                    <i class="ri-checkbox-circle-line"></i>
+                    <div>
+                      <h3 class="skills-name">Python</h3>
+                      <span class="skills-level">Intermediate</span>
+                    </div>
+                  </div>
+
+                  <div class="skills-data">
+                    <i class="ri-checkbox-circle-line"></i>
+                    <div>
+                      <h3 class="skills-name">MySQL</h3>
+                      <span class="skills-level">Intermediate</span>
+                    </div>
+                  </div>
+
+                  <div class="skills-data">
+                    <i class="ri-checkbox-circle-line"></i>
+                    <div>
+                      <h3 class="skills-name">DataBase</h3>
+                      <span class="skills-level">Intermediate</span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="skills-group">
+                  <div class="skills-data">
+                    <i class="ri-checkbox-circle-line"></i>
+                    <div>
+                      <h3 class="skills-name">Django</h3>
+                      <span class="skills-level">Intermediate</span>
+                    </div>
+                  </div>
+
+                  <div class="skills-data">
+                    <i class="ri-checkbox-circle-line"></i>
+                    <div>
+                      <h3 class="skills-name">Node.js</h3>
+                      <span class="skills-level">Basic</span>
+                    </div>
+                  </div>
+
+                  <div class="skills-data">
+                    <i class="ri-checkbox-circle-line"></i>
+                    <div>
+                      <h3 class="skills-name">Version Control</h3>
+                      <span class="skills-level">Intermediate</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project Section -->
+          <div class="projects-content grid" data-content id="projects">
+            <article class="projects-card">
+              <img
+                src="assets/img/weather.png"
+                alt="Web screen of site"
+                class="projects-img"
+              />
+              <div class="projects-modal">
+                <div>
+                  <span class="projects-subtitle">Frontend</span>
+                  <h3 class="projects-title">Weather App</h3>
+                  <a
+                    href="https://github.com/Yeranosyan/Weather-App-Frontend"
+                    target="_blank"
+                    class="projects-button button button-small"
+                  >
+                    <i class="ri-link"></i>
+                  </a>
+                </div>
+              </div>
+            </article>
+
+            <article class="projects-card">
+              <img
+                src="assets/img/cars.png"
+                alt="Web screen of site"
+                class="projects-img"
+              />
+              <div class="projects-modal">
+                <div>
+                  <span class="projects-subtitle">Frontend</span>
+                  <h3 class="projects-title">Cars Sale</h3>
+                  <a
+                    href="https://yeranosyan.github.io/Cars-Project-Frontend/"
+                    target="_blank"
+                    class="projects-button button button-small"
+                  >
+                    <i class="ri-link"></i>
+                  </a>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer container">
+      <span class="footer-copy">&copy; Gagik Yeranosyan 2023</span>
+    </footer>
+    <script src="assets/js/scrollreveal.min.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
